@@ -20,6 +20,8 @@ https://mara-hackathon-api.onrender.com
 
 Create your `Site` by providing a `Name` to receive your API key (examples provided using HTTPie). You can use whatever name you or your team want, but keep it appropriate!
 
+The most important piece of information here is the `Power` variable, this is your limiting factor in deciding on how much compute your site can offer.
+
 ```
 http POST https://mara-hackathon-api.onrender.com/sites name=HackFestSite
 
@@ -171,3 +173,17 @@ This is updated anytime you make a site allocation modification or when underlyi
 ## Feedback, Bugs, Q&A
 
 If you have any issues with the API or notice any bugs, feel free to contact any staff at the event. If there are any API changes needed throughout the day, we will notify attendees. No downtime is expected.
+
+
+### Additional Resources
+
+**Bitcoin**
+- https://mempool.space
+- https://data.hashrateindex.com/network-data/bitcoin-hashprice-index
+
+**Inference / Compute**
+- https://inference.net
+- https://sfcompute.com
+
+**Grid Pricing**
+- https://www.gridstatus.io
