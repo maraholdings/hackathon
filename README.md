@@ -116,7 +116,7 @@ This prices are static, so they won't change throughout the event. Feel free to 
 When you are ready to go, start by sending an allocation of machine types. **Note**, you can not exceed the maximum power available at a site
 
 ```
-http PUT :8000/machines X-Api-Key:XXX asic_miners=10 gpu_compute=30 asic_compute=5 immersion_miners=10
+http PUT https://mara-hackathon-api.onrender.com/machines X-Api-Key:XXX asic_miners=10 gpu_compute=30 asic_compute=5 immersion_miners=10
 
 {
     "air_miners": 0,
@@ -134,7 +134,7 @@ http PUT :8000/machines X-Api-Key:XXX asic_miners=10 gpu_compute=30 asic_compute
 You can view the status of your site by making a GET request:
 
 ```
-http :8000/machines X-Api-Key:XXX
+http https://mara-hackathon-api.onrender.com/machines X-Api-Key:XXX
 
 
 {
